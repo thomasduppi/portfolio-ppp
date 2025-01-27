@@ -26,7 +26,7 @@
     </div>
   </template>
   
-  <script setup>
+  <script lang="ts">
   const projets = [
     {
       id: 1,
@@ -67,6 +67,13 @@
       ],
     },
   ];
+
+  export default {
+    name: 'Projets',
+    data() {
+        return { projets };
+    },
+  };
   </script>
   
 <style>

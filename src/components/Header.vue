@@ -22,8 +22,11 @@
     </header>
   </template>
   
-  <script setup>
-  </script>
+<script lang="ts">
+  export default {
+      name: 'Header',
+  };
+</script>
   
 <style>
   .header {

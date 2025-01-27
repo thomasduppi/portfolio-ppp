@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory} from 'vue-router';
-import Home from '../views/HomeView.vue';
-import Cv from '../views/CvView.vue';
-import Experiences from '../views/ExperiencesView.vue';
-import Competences from '../views/CompetencesView.vue';
-import Projets from '../views/ProjetsView.vue';
+import Home from '@/components/Home.vue';
+import Cv from '@/components/Cv.vue';
+import Experiences from '@/components/Experiences.vue';
+import Competences from '@/components/Competences.vue';
+import Projets from '@/components/Projets.vue';
 
 const routes = [
   {

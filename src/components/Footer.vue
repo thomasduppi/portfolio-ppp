@@ -22,8 +22,11 @@
     </footer>
   </template>
   
-  <script setup>
-  </script>
+<script lang="ts">
+  export default {
+      name: 'Footer',
+  };
+</script>
   
 <style>
   .footer {

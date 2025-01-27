@@ -10,7 +10,7 @@
     </div>
   </template>
   
-  <script setup lang="ts">
+  <script lang="ts">
   const skills = [
     { name: "Java", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
     { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
@@ -25,7 +25,16 @@
     { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     { name: "Unity", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" },
   ];
-  </script>
+
+  export default {
+  name: 'Competences',
+  data() {
+    return {
+      skills,
+    };
+  },
+};
+</script>
 
   <style>
   .page-container {
