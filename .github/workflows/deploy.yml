@@ -3,7 +3,7 @@ name: Deploy Vue.js to GitHub Pages
 on:
   push:
     branches:
-      - main  # Remplacez 'main' par la branche principale de votre dépôt si différente
+      - main
 
 jobs:
   build-and-deploy:
