@@ -42,7 +42,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-  }
+  } 
   
   .skills-container {
     display: grid;
