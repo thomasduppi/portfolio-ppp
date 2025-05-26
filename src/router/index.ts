@@ -7,7 +7,7 @@ import Projets from '@/components/Projets.vue';
 
 const routes = [
   {
-    path: "/",
+    path: "/portfolio-ppp",
     name: "Home",
     component: Home,
   },
