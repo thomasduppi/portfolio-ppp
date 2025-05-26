@@ -3,7 +3,7 @@
       <nav class="navbar">
         <ul class="nav-list">
           <li class="nav-item">
-            <router-link to="/">Accueil</router-link>
+            <router-link to="/portfolio-ppp">Accueil</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/competences">Compétences</router-link>
