@@ -12,8 +12,8 @@ export default {
   <div class="app-layout">
       <Header />
       <router-view />
-      <Footer />
   </div>
+  <Footer />
 </template>
 
 <style>
